@@ -1,7 +1,0 @@
-setup.py
-DictInsensitive.egg-info/PKG-INFO
-DictInsensitive.egg-info/SOURCES.txt
-DictInsensitive.egg-info/dependency_links.txt
-DictInsensitive.egg-info/requires.txt
-DictInsensitive.egg-info/top_level.txt
-dictinsensitive/__init__.py
