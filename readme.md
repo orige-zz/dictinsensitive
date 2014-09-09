@@ -1,9 +1,9 @@
 # Dict Insensitive
-Before use this, try to refactor your code.
-If you too lazy, use it!
+Before use this, try refactor your code first.
+If you're too lazy, use it!
 
 
-# How To
+## How To
 
 Create a dictionary and instantiate a DictInsensitive for search, update and delete values with case insensitive keys:
 
@@ -28,13 +28,12 @@ insensitive_dict = DictInsensitive([('movie', 'Star Wars')])
 
 Use DictInsentive like a normal **dict** with more chances to break something!
 
-# TODO
-- Create a pip package
+## TODO
 - Improve tests
 
-# License
+## License
 MIT
 
-# Collaborators
-- Eduardo Orige (@orige)
-- Augusto Hack (@hackaugusto)
+## Collaborators
+- Eduardo Orige @orige
+- Augusto Hack  @hackaugusto

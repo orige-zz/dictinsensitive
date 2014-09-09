@@ -1,9 +1,8 @@
-import unittest
 from unittest import TestCase
 from dictinsensitive import DictInsensitive
 
-class DictInsensitiveUnitTestCase(TestCase):
 
+class DictInsensitiveUnitTestCase(TestCase):
     def test_not_iterable(self):
         test = 1
 
@@ -11,7 +10,7 @@ class DictInsensitiveUnitTestCase(TestCase):
             DictInsensitive(test)
 
     def test_iterable_but_not_dict(self):
-        test = (1,2)
+        test = (1, 2)
 
         with self.assertRaises(TypeError):
             DictInsensitive(test)
@@ -60,7 +59,3 @@ class DictInsensitiveUnitTestCase(TestCase):
 
         for key, value in insensitive.items():
             self.assertEqual(original[key], insensitive[key])
-
-if __name__ == '__main__':
-    unittest.main()
-
